@@ -41,5 +41,8 @@ The project is configured for **GitHub Pages**. Any push to the `main` branch wi
 
 To set it up on your own fork:
 1. Go to **Settings > Pages**.
-2. Under **Build and deployment > Source**, select **GitHub Actions**.
+2. Under **Build and deployment > Source**, select **GitHub Actions** (this is critical!).
 3. Push your changes to the `main` branch.
+
+## ⚠️ Troubleshooting 404 Error
+If you see a 404 error after pushing, ensure that the **Source** in **Settings > Pages** is set to **GitHub Actions**. By default, it might be set to "Deploy from a branch", which will cause the workflow to fail.
