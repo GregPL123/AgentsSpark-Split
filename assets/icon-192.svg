@@ -1,0 +1,11 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'>
+  <rect width='192' height='192' rx='40' fill='#1a170d'/>
+  <rect width='192' height='192' rx='40' fill='url(#g)'/>
+  <defs>
+    <linearGradient id='g' x1='0' y1='0' x2='192' y2='192' gradientUnits='userSpaceOnUse'>
+      <stop offset='0' stop-color='#f2b90d' stop-opacity='.3'/>
+      <stop offset='1' stop-color='#c49a0a' stop-opacity='.3'/>
+    </linearGradient>
+  </defs>
+  <text x='96' y='128' font-size='96' text-anchor='middle' fill='#f2b90d'>⚡</text>
+</svg>
